@@ -60,8 +60,8 @@ height: 114px;
 display: flex;
 justify-content: flex-start;
 list-style: none;
-margin-top: 80px;
-margin-left: 50px;
+margin-top: 75px;
+margin-left: 30px;
 }
 .menu__nav-link {
   margin-left: 45px;
@@ -86,10 +86,16 @@ margin-left: 50px;
 .main-nav__cart {
   display: flex;
   flex-direction: row;
-  list-style: none;
+
   margin-top: 80px;
   margin-left: 190px;
+
   outline: none;
+  list-style: none;
+  }
+  .cart {
+    margin-top: -5px;
+    margin-left: -30px;
   }
 .menu__cart-link {
   text-decoration: none;
@@ -111,8 +117,9 @@ margin-left: 50px;
 }
 .main-nav__cart li:before {
   position: absolute;
+  margin-top: 5px;
   margin-right: 30px;
-  margin-left: -35px;
+  margin-left: -45px;
 
 
   width: 15px;
@@ -229,7 +236,7 @@ margin-left: 50px;
   position: absolute;
   z-index: 111;
   top: 87%;
-  left: 85%;
+  left: 87%;
 
   width: 10px;
   height: 10px;
@@ -557,75 +564,6 @@ font-size: 16px;
   font-size: 16px;
   /* margin-left: 25px; */
 }
-/* ///////////////////FIRMS AND BORDERS/////////// */
-/* .border {
-  display: inline-block;
-  background-image: url(/img/divide.png);
-  width: 1160px;
-  height: 2px;
-  margin-left: 140px;
-  margin-right: 140px;
-}
-.border:first-of-type {
-  margin-top: 80px;
-  margin-bottom: 65px;
-}
-.border:nth-of-type(2) {
-  margin-top: 65px;
-  margin-bottom: 35px;
-}
-.border:nth-of-type(3) {
-  padding: 0px;
-  margin-top: -35px;
-  margin-bottom: 80px;
-}
-.firm-row {
-  display: flex;
-  flex-direction: row;
-}
-.border-vertical {
-width: 2px;
-height: 52px;
-margin-top: 15px;
-background-image: url(/img/div.png);
-}
-.firm:first-of-type {
-  background-image: url(/img/logo-1.png);
-  background-repeat: no-repeat;
-  margin-top: 15px;
-  width: 199px;
-  height: 68px;
-  margin-left: 170px;
-  margin-right: 50px;
-}
-.firm:nth-of-type(3) {
-  background-image: url(/img/logo-2.png);
-  background-repeat: no-repeat;
-  width: 209px;
-  height: 87px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 5px;
-  margin-bottom: 80px;
-}
-.firm:nth-of-type(5) {
-  background-image: url(/img/logo-3.png);
-  background-repeat: no-repeat;
-  width: 185px;
-  height: 52px;
-  margin-top: 20px;
-  margin-left: 45px;
-  margin-right: 60px;
-}
-.firm:nth-of-type(7) {
-  background-image: url(/img/logo-4.png);
-  background-repeat: no-repeat;
-  width: 173px;
-  height: 84px;
-  margin-left: 30px;
-  margin-right: 60px;
-} */
-
 /* //////////////////////FIRMLINE///////////////// */
 
 .firm {
