@@ -278,13 +278,14 @@ margin-left: 30px;
   font-size: 16px;
   line-height: 18px;
 
-  display: block;
+  display: inline-block;
 
   margin-left: 173px;
 
   width: 240px;
   height: 50px;
 
+  border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 18px;
@@ -398,6 +399,7 @@ font-weight: 400;
 font-family: inherit;
 text-transform: uppercase;
 background-color: #fb565a;
+border: none;
 color: #fff;
 border-radius: 7px;
 height: 50px;
@@ -407,6 +409,7 @@ width: 160px;
 height: 50px;
 font-weight: 400;
 font-family: inherit;
+border: none;
 text-transform: uppercase;
 background-color: #00ca74;
 color: #fff;
@@ -417,6 +420,7 @@ width: 160px;
 height: 50px;
 font-weight: 400;
 font-family: inherit;
+border: none;
 text-transform: uppercase;
 background-color: #efc84a;
 color: #fff;
@@ -694,6 +698,8 @@ margin-top: 86px;
   border-radius: 3px;
   padding-bottom: 47px;
   margin-left: 50px;
+  border: none;
+  text-decoration: none;
   /* padding-right: 44px; */
   /* padding-left: 44px; */
   padding-top: 17px;
