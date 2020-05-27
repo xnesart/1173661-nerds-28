@@ -141,8 +141,9 @@
       </div>
         <section class="section-map">
           <div class="map-wrapper">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab22b5a88a67d8371d69565169cb2f68da3d154dc2c9dd34cf9e5fa21d32bfd05&amp;source=constructor" width="1440" height="410" frameborder="0"></iframe>
             <img src="img/map.png" class="map" height="416" width="1440"/>
-            <div class="map-container wrapper-content">
+            <!-- <div class="map-container wrapper-content"> -->
               <h2 class="visually-hidden">Наши контактные данные</h2>
           <img class="map-marker" src="img/map-marker.png" height="190" width="231"/></img>
            <div class="map__text-background">
@@ -151,7 +152,36 @@
           <p class="map__text-adress">191186, Санкт-Петербург, <br>
             ул. Б. Конюшенная, д. 19/8
             <p class="map-phone"><a class="map-phone-link" href="tel.:78122757575">тел. +7 (812) 275-75-75</a></p>
-           <a class="map__button" href="form.html">Напишите нам</a>
+            <div class="form-wrapper">
+           <input type="checkbox" id="modal" class="visually-hidden" checked>
+           <label class="map__button" for="modal">Напишите нам</label>
+
+
+            <form class="popup-form">
+                <div class="form-header">
+             <h2 class="popup_h2">Напишите нам</h2>
+             <label class="popup_close" for="modal" type="submit"><span class="visually-hidden">Закрытие формы</span></label>
+            </div>
+             <form action="https://echo.htmlacademy.ru" method="post">
+                <div class="name-email">
+               <p class="popup_name">
+             <label class="popup_name_text" for="name">Ваше имя:</label>
+             <input id="name" type="text" name="label name" placeholder="Имя Фамилия">
+             </p>
+             <p class="popup_email">
+               <label class="popup_email_text" for="email">Ваш email:</label>
+               <input id="email" type="email" name="label email" placeholder="email@example.com">
+             </p>
+            </div>
+             <p class="popup_text">
+               <label class="popup_text_window" for="message text">Текст письма:</label>
+               <textarea id="message text" type="text" class="popup_textarea" name="label text" placeholder="В свободной форме"></textarea>
+             </p>
+             <button class="send-button" type="submit">Отправить</button>
+
+             </form>
+           </div>
+          </div>
       </div>
       </div>
       </div>
