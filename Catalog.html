@@ -10,92 +10,123 @@
 <body>
   <header class="header">
     <nav class="header-wrapper wrapper-content">
-      <a class="logo" href="index.html"><img src="/img/nerds-logo.png" alt="Логотип сайта Nerds"></img></a>
-        <ul class="main-nav__menu">
-          <li><div class="main__nav-item"><a class="menu__nav-link link" href="studio.html">Студия</a></div></li>
-          <li><div class="main__nav-item"><a class="menu__nav-link link" href="clients.html">Клиенты</a></div></li>
-          <li><div class="main__nav-item"><a class="menu__nav-link link" href="Catalog.html">Магазин</a></div></li>
-          <li><div class="main__nav-item"><a class="menu__nav-link link" href="contacts.html">Контакты</a></div></li>
+      <a class="logo" href="index.html"><img src="img/nerds-logo.png" alt="Логотип сайта Nerds" width="160" height="65"></a>
+        <ul class="main-nav-menu">
+          <li><a class="menu-nav-link link" href="blank.html">Студия</a></li>
+          <li><a class="menu-nav-link link" href="blank.html">Клиенты</a></li>
+          <li><a class="menu-nav-link link" href="Catalog.html">Магазин</a></li>
+          <li><a class="menu-nav-link link" href="blank.html">Контакты</a></li>
         </ul>
-        <ul class="cart">
-        <li><img src="/img/cart-icon.png" class="cart-image"></li>
-        <li><a href="#" class="menu__cart-link link">Корзина</a></li>
+        <ul class="main-nav-cart">
+        <li class="cart"><a href="#" class="menu-cart-link link">Корзина</a></li>
         </ul>
       </img>
     </nav>
-  </div>
-  </header>
+    <h1 class="visually-hidden">Дизайн-студия «Нёрдс»</h1>
+    <div class="title-wrapper wrapper-content">
     <section class="title">
       <h1 class="page-title">Магазин готовых шаблонов</h1>
     </section>
-    <section class="main">
-      <p class="main__filter-header">Сортировать</p>
-      <ul class="main__filter">
-        <li class="main__filter-item">По цене</li>
-        <li class="main__filter-item">По типу</li>
-        <li class="main__filter-item">По названию</li>
-        <li class="main__filter-item">Вверх</li>
-        <li class="main__filter-item">Вниз</li>
+  </div>
+  </header>
+  <main>
+    <section class="main-section">
+      <div class="main-filter">
+      <p class="main-filter-header">Сортировать:</p>
+      <ul class="main-filter-ul">
+        <li class="main-filter-item">По цене</li>
+        <li class="main-filter-item">По типу</li>
+        <li class="main-filter-item">По названию</li>
+        <li class="main-filter-item">Вверх</li>
+        <li class="main-filter-item">Вниз</li>
       </ul>
-      <p class="first__filter-header">Стоимость</p>
-      <ul class="first__filter">
-        <li class="first__filter-value">От</li>
-        <li class="first__filter-value">До</li>
+    </div>
+    <div class="first-filter">
+      <p class="first-filter-header">Стоимость</p>
+      <ul class="first-filter-ul">
+        <li class="first-filter-value">От</li>
+        <li class="first-filter-value">До</li>
       </ul>
-      <p class="second-filter-header">Сетка</p>
-      <ul class="second__filter">
-        <li class="second__filter-item">Адаптивная</li>
-        <li class="second__filter-item">Фиксированная</li>
-        <li class="second__filter-item">Резиновая</li>
+    </div>
+      <!-- <p class="second-filter-header">Сетка</p>
+      <ul class="second-filter">
+        <li class="second-filter-item">Адаптивная</li>
+        <li class="second-filter-item">Фиксированная</li>
+        <li class="second-filter-item">Резиновая</li>
       </ul>
-      <p class="third__filter-header">Особенности</p>
-      <ul class="third__filter">
-        <li class="third__filter-item">Слайдер</li>
-        <li class="third__filter-item">Блок преимуществ</li>
-        <li class="third__filter-item">Новости</li>
-        <li class="third__filter-item">Галерея</li>
-        <li class="third__filter-item">Корзина</li>
+      <p class="third-filter-header">Особенности</p>
+      <ul class="third-filter">
+        <li class="third-filter-item">Слайдер</li>
+        <li class="third-filter-item">Блок преимуществ</li>
+        <li class="third-filter-item">Новости</li>
+        <li class="third-filter-item">Галерея</li>
+        <li class="third-filter-item">Корзина</li>
       </ul>
-      <button class="filter__button">Показать</button>
+      <button class="filter-button">Показать</button>
     </section>
     <section class="templates">
       <div class="template">
-        <h3 class="template__header">Sedona</h3>
-        <p class="template__desc">Информационный сайт<br>
+        <h3 class="template-header">Sedona</h3>
+        <p class="template-desc">Информационный сайт<br>
           для туристов</p>
-        <button class="template__button">9 900 руб.</button>
+        <button class="template-button">9 900 руб.</button>
       </div>
       <div class="template">
-        <h3 class="template__header">Pink App</h3>
-        <p class="template__desc">Продуктовый лендинг<br>
+        <h3 class="template-header">Pink App</h3>
+        <p class="template-desc">Продуктовый лендинг<br>
           приложения для iOS и Android</p>
-        <button class="template__button">9 900 руб.</button>
+        <button class="template-button">9 900 руб.</button>
       </div>
       <div class="template">
-        <h3 class="template__header">Barbershop</h3>
-        <p class="template__desc">Сайт салона красоты.<br>Для мужчин, да.</p>
-        <button class="template__button">9 900 руб.</button>
+        <h3 class="template-header">Barbershop</h3>
+        <p class="template-desc">Сайт салона красоты.<br>Для мужчин, да.</p>
+        <button class="template-button">9 900 руб.</button>
       </div>
       <div class="template">
-        <h3 class="template__header">MISHKA</h3>
-        <p class="template__desc">Интернет-магазин<br>
+        <h3 class="template-header">MISHKA</h3>
+        <p class="template-desc">Интернет-магазин<br>
           вязаных игрушек</p>
-        <button class="template__button">9 900 руб.</button>
+        <button class="template-button">9 900 руб.</button>
       </div>
       <div class="template">
-        <h3 class="template__header">A Plus</h3>
-        <p class="template__desc">Лендинг курсов повышения<br> квалификации</p>
-        <button class="template__button">9 900 руб.</button>
+        <h3 class="template-header">A Plus</h3>
+        <p class="template-desc">Лендинг курсов повышения<br> квалификации</p>
+        <button class="template-button">9 900 руб.</button>
       </div>
       <div class="template">
-        <h3 class="template__header">КВАСТ</h3>
-        <p class="template__desc">Промо-сайт производителя
+        <h3 class="template-header">КВАСТ</h3>
+        <p class="template-desc">Промо-сайт производителя
           крафтового кваса</p>
-        <button class="template__button">9 900 руб.</button>
+        <button class="template-button">9 900 руб.</button>
       </div>
-      <div class="main__control"></div>
+      <div class="main-control"></div>
     </section>
-  </div>
-
+  </div> -->
+</main>
+<footer class="page-footer">
+  <div class="footer-links">
+  <ul class="footer-soc-link">
+    <li class="footer-soc-link-vk">
+      <a class="social-button" href="blank.html">
+      <img class="soc-vk" src="img/vk-icon.svg" alt="Ссылка на нашу страницу Вконтакте">
+    </a>
+    </li>
+    <li class="footer-soc-link-fb">
+      <a class="social-button" href="blank.html">
+      <img class="soc-fb" src="img/fb-icon.svg" alt="Ссыдка на нашу страницу в Фейсбуке">
+    </a>
+    </li>
+    <li class="footer-soc-link-inst">
+      <a class="social-button" href="blank.html">
+      <img class="soc-inst" src="img/insta-icon.svg" alt="Ссылка на нашу страницу в Инстаграмме"/>
+    </a>
+    </li>
+  </ul>
+</div>
+<div class="footer-text">
+  <div class="footer-text-header">Давайте дружить, это выгодно!</div>
+  <div class="footer-text-desc">Скидка 10% для друзей из социальных сетей.</div>
+</div>
+</footer>
 </body>
 </html>
