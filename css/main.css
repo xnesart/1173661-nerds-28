@@ -326,11 +326,24 @@ margin-top: 255px;
   flex-direction: row;
   list-style: none;
   margin-left: -101px;
+
 }
 .main-filter-item {
   padding-right: 25px;
-
-}
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.3;
+  text-transform: uppercase;
+ }
+ .main-filter-item:hover,
+ .main-filter-item:focus {
+  opacity: 1.0;
+  color: #000000;
+ }
 .first-filter {
   display: flex;
   flex-direction: column;
