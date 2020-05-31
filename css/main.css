@@ -289,21 +289,6 @@ body {
   background-color: #d7373b;
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
-.filter-button {
-  font-family: inherit;
-  width: 260px;
-  height: 50px;
-  color: #000;
-  background-color: #eee;
-}
-.filter-button:hover,
-.filter-button:focus {
-  background-color: #dfdfdf;
-}
-.filter-button:active {
-  color: rgba(0, 0, 0, 0.3);
-  background-color: rgba(0, 1, 1, 0.1);
-}
 /* /////////////////////MAIN////////////// */
 .main-section {
 margin-top: 255px;
