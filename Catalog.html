@@ -37,71 +37,128 @@
         <li class="main-filter-item">По цене</li>
         <li class="main-filter-item">По типу</li>
         <li class="main-filter-item">По названию</li>
-        <li class="main-filter-item">Вверх</li>
-        <li class="main-filter-item">Вниз</li>
+        <li class="main-filter-item"><img class="down" src="/img/down.svg" alt="Вниз"></li>
+        <li class="main-filter-item"><img class="up" src="/img/up.svg" alt="Вверх"></li>
       </ul>
     </div>
+    <div class="filter-wrapper">
     <div class="first-filter">
       <p class="first-filter-header">Стоимость:</p>
-      <ul class="first-filter-ul">
-        <li class="first-filter-value">От</li>
-        <li class="first-filter-value">До</li>
-      </ul>
+      <div class="price-slider">
+        <div class="price-slider-line"></div>
+        <div class="price-slider-green"></div>
+        <div class="price-slider-dot1"></div>
+        <div class="price-slider-dot2"></div>
+        <div class="price-slider-min"></div>
+        <div class="price-slider-max"></div>
+      </div>
+      <div class="first-filter-label">
+        <label>От
+          <input type="text" class="min-price" value="0">
+        </label>
+        <label>До
+          <input type="text" class="max-price" value="15 000">
+        </label>
+      </div>
     </div>
-      <!-- <p class="second-filter-header">Сетка</p>
+     <h3 class="second-filter-header">Сетка:</h3>
       <ul class="second-filter">
-        <li class="second-filter-item">Адаптивная</li>
-        <li class="second-filter-item">Фиксированная</li>
-        <li class="second-filter-item">Резиновая</li>
+        <li class="second-filter-item">
+          <div class="radio-custom"></div>
+          <input type="radio" class="filter-radio" name="radio-button" id="radio-button" checked hidden>
+          <label for="radio-button">Адаптивная</label>
+        </li>
+        <li class="second-filter-item">
+          <label>
+          <span class="radio-custom"></span>
+          <input type="radio" class="filter-radio visually-hidden" name="radio-button"><span class="radio-text">Фиксированная</span>
+          </label>
+        </li>
+        <li class="second-filter-item">
+          <label>
+          <span class="radio-custom"></span>
+          <input type="radio" class="filter-radio visually-hidden" name="radio-button"><span class="radio-text">Резиновая</span>
+          </label>
+        </li>
       </ul>
-      <p class="third-filter-header">Особенности</p>
+      <p class="third-filter-header">Особенности:</p>
       <ul class="third-filter">
-        <li class="third-filter-item">Слайдер</li>
-        <li class="third-filter-item">Блок преимуществ</li>
-        <li class="third-filter-item">Новости</li>
-        <li class="third-filter-item">Галерея</li>
-        <li class="third-filter-item">Корзина</li>
+        <li class="third-filter-item"><input type="checkbox" name="slider-filter" id="slider-filter" checked>
+          <label for="slider-filter">Слайдер</label></li>
+        <li class="third-filter-item"><input type="checkbox" name="advantages-filter" id="advantages-filter">
+          <label for="advantages-filter">Блок преимуществ</label></li>
+        <li class="third-filter-item"><input type="checkbox" name="news-filter"  id="news-filter" checked>
+          <label for="news-filter">Новости</label></li>
+        <li class="third-filter-item"><input type="checkbox" name="gallery-filter" id="gallery-filter">
+          <label for="gallery-filter">Галерея</label></li>
+        <li class="third-filter-item"><input type="checkbox" name="cart-filter" id="cart-filter">
+          <label for="cart-filter">Корзина</label></li>
       </ul>
-      <button class="filter-button">Показать</button>
+      <a class="filter-button" href="https://echo.htmlacademy.ru/">Показать</a>
+    </div>
     </section>
     <section class="templates">
-      <div class="template">
+      <li class="template">
+        <img class="image-cap" src="/img/image-cap.svg">
+        <img class="image-main" src="img/img-sedona1.jpg" height="576" width="360"/>
+        <div class="popup-block">
         <h3 class="template-header">Sedona</h3>
         <p class="template-desc">Информационный сайт<br>
           для туристов</p>
-        <button class="template-button">9 900 руб.</button>
+        <a class="template-button" href="blank.html">9 900 руб.</a>
       </div>
-      <div class="template">
+      </li>
+      <li class="template">
+        <img class="image-cap" src="/img/image-cap.svg">
+        <img class="image-main" src="img/img-pink 1.jpg" height="576" width="358"/>
+        <div class="popup-block">
         <h3 class="template-header">Pink App</h3>
         <p class="template-desc">Продуктовый лендинг<br>
           приложения для iOS и Android</p>
         <button class="template-button">9 900 руб.</button>
       </div>
-      <div class="template">
+      </li>
+      <li class="template">
+        <img class="image-cap" src="/img/image-cap.svg">
+        <img class="image-main" src="img/img-barbershop 1.jpg" height="578" width="358"/>
+        <div class="popup-block">
         <h3 class="template-header">Barbershop</h3>
         <p class="template-desc">Сайт салона красоты.<br>Для мужчин, да.</p>
         <button class="template-button">9 900 руб.</button>
-      </div>
-      <div class="template">
+        </div>
+      </li>
+      <li class="template">
+        <img class="image-cap" src="/img/image-cap.svg">
+        <img class="image-main" src="img/img-mishka 1.jpg" height="578" width="358"/>
+        <div class="popup-block">
         <h3 class="template-header">MISHKA</h3>
         <p class="template-desc">Интернет-магазин<br>
           вязаных игрушек</p>
         <button class="template-button">9 900 руб.</button>
       </div>
-      <div class="template">
+      </li>
+      <li class="template">
+        <img class="image-cap" src="/img/image-cap.svg">
+        <img class="image-main" src="img/img-aplus 1.jpg" height="578" width="358"/>
+        <div class="popup-block">
         <h3 class="template-header">A Plus</h3>
         <p class="template-desc">Лендинг курсов повышения<br> квалификации</p>
         <button class="template-button">9 900 руб.</button>
-      </div>
-      <div class="template">
+        </div>
+      </li>
+      <li class="template">
+        <img class="image-cap" src="/img/image-cap.svg">
+        <img class="image-main" src="img/img-kvast 1.jpg" height="578" width="358"/>
+        <div class="popup-block">
         <h3 class="template-header">КВАСТ</h3>
         <p class="template-desc">Промо-сайт производителя
           крафтового кваса</p>
         <button class="template-button">9 900 руб.</button>
       </div>
+      </li>
       <div class="main-control"></div>
     </section>
-  </div> -->
+  </div>
 </main>
 <footer class="page-footer">
   <div class="footer-links">
