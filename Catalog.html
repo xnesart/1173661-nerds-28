@@ -61,26 +61,25 @@
         </label>
       </div>
     </div>
-     <h3 class="second-filter-header">Сетка:</h3>
-      <ul class="second-filter">
-        <li class="second-filter-item">
-          <div class="radio-custom"></div>
-          <input type="radio" class="filter-radio" name="radio-button" id="radio-button" checked hidden>
-          <label for="radio-button">Адаптивная</label>
-        </li>
-        <li class="second-filter-item">
-          <label>
-          <span class="radio-custom"></span>
-          <input type="radio" class="filter-radio visually-hidden" name="radio-button"><span class="radio-text">Фиксированная</span>
-          </label>
-        </li>
-        <li class="second-filter-item">
-          <label>
-          <span class="radio-custom"></span>
-          <input type="radio" class="filter-radio visually-hidden" name="radio-button"><span class="radio-text">Резиновая</span>
-          </label>
-        </li>
-      </ul>
+    <div class="second-filter">
+      <h2>Сетка:</h2>
+      <label>
+        <input class="radio" type="radio" name="second-filter-types" checked>
+        <span class="radio-custom radio-custom-first"></span>
+        <span class="label label-first">Адаптивная</span>
+      </label>
+      <label>
+        <input class="radio" type="radio" name="second-filter-types">
+        <span class="radio-custom radio-custom-second"></span>
+        <span class="label label-second">Фиксированная</span>
+      </label>
+      <label>
+        <input class="radio" type="radio" name="second-filter-types">
+        <span class="radio-custom radio-custom-third"></span>
+        <span class="label label-third">Резиновая</span>
+      </label>
+    </div>
+
       <p class="third-filter-header">Особенности:</p>
       <ul class="third-filter">
         <li class="third-filter-item"><input type="checkbox" name="slider-filter" id="slider-filter" checked>
@@ -96,6 +95,7 @@
       </ul>
       <a class="filter-button" href="https://echo.htmlacademy.ru/">Показать</a>
     </div>
+  </div>
     </section>
     <section class="templates">
       <li class="template">
