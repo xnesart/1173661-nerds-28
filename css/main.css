@@ -1,5 +1,4 @@
 html {
-  overflow-x: hidden;
 }
 *,
 *:before,
@@ -1263,7 +1262,8 @@ opacity: 1;
 }
 /* //////PAGES//// */
 .pages {
-  width: 285px;
+  width: 443px;
+  height: 50px;
   margin-top: 55px;
   margin-bottom: 80px;
   margin-left: 780px;
@@ -1273,7 +1273,10 @@ opacity: 1;
 	margin: 0;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	padding: 10px 15px 10px 15px;
+	padding-top: 17px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 	font-size: 12px;
 	line-height: 18px;
 	font-weight: 500;
@@ -1288,9 +1291,20 @@ opacity: 1;
 	cursor: pointer;
 }
 .pages a.current {
-  padding: 8px 13px;
+  padding-top: 16px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 18px;
+  font-weight: 500;
 	background-color: #ffffff;
   border: 2px solid #f1f1f1;
+}
+.pages a.next {
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-left: 78px;
+  padding-right: 77px;
 }
 .pages a:active,
 .pages a:focus {
