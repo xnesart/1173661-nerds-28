@@ -31,19 +31,27 @@
   </header>
   <main>
     <section class="main-section">
+      <form method="get" action="https://echo.htmlacademy.ru">
+        <fieldset class="main-filter-fieldset">
       <div class="main-filter">
-      <p class="main-filter-header">Сортировать:</p>
+      <legend class="main-filter-header">Сортировать:</legend>
       <ul class="main-filter-ul">
         <li class="main-filter-item">По цене</li>
         <li class="main-filter-item">По типу</li>
         <li class="main-filter-item">По названию</li>
-        <li class="main-filter-item"><img class="down" src="/img/down.svg" alt="Вниз"></li>
-        <li class="main-filter-item"><img class="up" src="/img/up.svg" alt="Вверх"></li>
+      </ul>
+      <ul class="main-arrow-ul">
+        <li class="main-arrow-item"><img class="down" src="/img/down.svg" alt="Вниз"></ul>
+        <li class="main-arrow-item"><img class="up" src="/img/up.svg" alt="Вверх"></li>
       </ul>
     </div>
+  </fieldset>
+  </form>
+    <form method="get" action="https://echo.htmlacademy.ru">
+    <fieldset class="first-filter-fieldset">
     <div class="filter-wrapper">
     <div class="first-filter">
-      <p class="first-filter-header">Стоимость:</p>
+      <legend class="first-filter-header">Стоимость:</legend>
       <div class="price-slider">
         <div class="price-slider-line"></div>
         <div class="price-slider-green"></div>
@@ -61,8 +69,12 @@
         </label>
       </div>
     </div>
+  </fieldset>
+</form>
+<form method="get" action="https://echo.htmlacademy.ru">
+  <fieldset class="second-filter-fieldset">
     <div class="second-filter">
-      <h2 class="second-filter-header">Сетка:</h2>
+      <legend class="second-filter-header">Сетка:</legend>
       <label>
         <input class="radio" type="radio" name="second-filter-types" checked>
         <span class="radio-custom"></span>
@@ -79,8 +91,12 @@
         <span class="label">Резиновая</span>
       </label>
     </div>
+  </fieldset>
+</form>
+<form method="get" action="https://echo.htmlacademy.ru">
+  <fieldset class="third-filter-fieldset">
       <div class="third-filter">
-        <h2 class="third-filter-header">Особенности:</h2>
+        <legend class="third-filter-header">Особенности:</legend>
         <label class="third-filter-item">
           <input type="checkbox" class="checkbox" name="slider-filter" id="slider-filter" checked>
           <span class="checkbox-custom"></span>
@@ -106,8 +122,10 @@
           <span class="checkbox-custom"></span>
           <span class="label">Корзина</span>
         </label>
+        <a class="filter-button" href="https://echo.htmlacademy.ru/">Показать</a>
         </div>
-      <a class="filter-button" href="https://echo.htmlacademy.ru/">Показать</a>
+      </fieldset>
+    </form>
     </div>
   </div>
     </section>
