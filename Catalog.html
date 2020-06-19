@@ -34,23 +34,23 @@
       <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset class="main-filter-fieldset">
       <div class="main-filter">
+        <div class="visually-hidden">Фильтр настроек сортировки</div>
       <legend class="main-filter-header">Сортировать:</legend>
       <ul class="main-filter-ul">
-        <li class="main-filter-item">По цене</li>
-        <li class="main-filter-item">По типу</li>
-        <li class="main-filter-item">По названию</li>
+        <li class="main-filter-item"><a class="main-link">По цене</a></li>
+        <li class="main-filter-item"><a class="main-link">По типу</a></li>
+        <li class="main-filter-item"><a class="main-link">По названию</a></li>
       </ul>
       <ul class="main-arrow-ul">
-        <li class="main-arrow-item"><img class="down" src="/img/down.svg" alt="Вниз"></ul>
-        <li class="main-arrow-item"><img class="up" src="/img/up.svg" alt="Вверх"></li>
+        <li class="main-arrow-item"><button class="main-link-arrows"><img class="down" src="/img/down.svg" alt="Вниз"></button></li>
+        <li class="main-arrow-item"><button class="main-link-arrows"><img class="up" src="/img/up.svg" alt="Вверх"></button></li>
       </ul>
     </div>
   </fieldset>
-  </form>
-    <form method="get" action="https://echo.htmlacademy.ru">
     <fieldset class="first-filter-fieldset">
     <div class="filter-wrapper">
-    <div class="first-filter">
+    <div class="filters">
+      <div class="visually-hidden">Слайдер стоимости</div>
       <legend class="first-filter-header">Стоимость:</legend>
       <div class="price-slider">
         <div class="price-slider-line"></div>
@@ -70,10 +70,9 @@
       </div>
     </div>
   </fieldset>
-</form>
-<form method="get" action="https://echo.htmlacademy.ru">
   <fieldset class="second-filter-fieldset">
-    <div class="second-filter">
+    <div class="filters">
+      <div class="visually-hidden">Фильтр выбора сетки сайта</div>
       <legend class="second-filter-header">Сетка:</legend>
       <label>
         <input class="radio" type="radio" name="second-filter-types" checked>
@@ -92,10 +91,9 @@
       </label>
     </div>
   </fieldset>
-</form>
-<form method="get" action="https://echo.htmlacademy.ru">
   <fieldset class="third-filter-fieldset">
-      <div class="third-filter">
+      <div class="filters">
+        <div class="visually-hidden">Фильтр выбора особенностей сайта</div>
         <legend class="third-filter-header">Особенности:</legend>
         <label class="third-filter-item">
           <input type="checkbox" class="checkbox" name="slider-filter" id="slider-filter" checked>
