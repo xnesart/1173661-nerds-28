@@ -8,26 +8,29 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <header class="header-catalog">
-    <nav class="header-wrapper wrapper-content">
-      <a class="logo" href="index.html"><img src="img/nerds-logo.png" alt="Логотип сайта Nerds" width="160" height="65"></a>
-        <ul class="main-nav-menu">
-          <li><a class="menu-nav-link link" href="blank.html">Студия</a></li>
-          <li><a class="menu-nav-link link" href="blank.html">Клиенты</a></li>
-          <li><a class="menu-nav-link link" href="Catalog.html">Магазин</a></li>
-          <li><a class="menu-nav-link link" href="blank.html">Контакты</a></li>
-        </ul>
-        <ul class="main-nav-cart">
-        <li class="cart"><a href="#" class="menu-cart-link link">Корзина</a></li>
-        </ul>
-      </img>
-    </nav>
+  <div class="index-wrapper">
+    <header class="header">
+      <nav class="main-nav">
+        <div class="header-wrapper">
+        <a class="logo" href="index.html"><img src="img/nerds-logo.png" alt="Логотип сайта Nerds" width="160" height="65"></a>
+          <ul class="main-nav-menu">
+            <li><a class="menu-nav-link link" href="blank.html">Студия</a></li>
+            <li><a class="menu-nav-link link" href="blank.html">Клиенты</a></li>
+            <li><a class="menu-nav-link link" href="Catalog.html">Магазин</a></li>
+            <li><a class="menu-nav-link link" href="blank.html">Контакты</a></li>
+          </ul>
+          <ul class="main-nav-cart">
+          <li class="cart"><a href="#" class="menu-cart-link link">Корзина</a></li>
+          </ul>
+        </img>
+      </nav>
+    </div>
     <h1 class="visually-hidden">Дизайн-студия «Нёрдс»</h1>
-    <div class="title-wrapper wrapper-content">
+    <!-- <div class="title-wrapper wrapper-content"> -->
     <section class="title">
       <h1 class="page-title">Магазин готовых шаблонов</h1>
     </section>
-  </div>
+  <!-- </div> -->
   </header>
   <main>
     <section class="main-section">
@@ -196,10 +199,10 @@
   </div>
   <section class="section-map">
     <div class="map-wrapper">
-      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab22b5a88a67d8371d69565169cb2f68da3d154dc2c9dd34cf9e5fa21d32bfd05&amp;source=constructor" width="1440" height="410" frameborder="0"></iframe>
+       <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab22b5a88a67d8371d69565169cb2f68da3d154dc2c9dd34cf9e5fa21d32bfd05&amp;source=constructor" width="1200" height="410" frameborder="0"></iframe>
       <img src="img/map.png" class="map" height="416" width="1440"/>
         <h2 class="visually-hidden">Наши контактные данные</h2>
-    <img class="map-marker" src="img/map-marker.png" height="190" width="231"/></img>
+    <!-- <img class="map-marker" src="img/map-marker.png" height="190" width="231"/></img> -->
      <div class="map-text-background">
      <div class="map-text">
     <p class="map-text-header">NЁRDS DESIGN STUDIO</p>
@@ -218,11 +221,11 @@
           <div class="name-email">
          <p class="popup-name">
        <label class="popup-name-text" for="name">Ваше имя:</label>
-       <input id="name" type="text" name="label name" placeholder="Имя Фамилия">
+       <input id="name" type="text" class="popup-name-input" name="label name" placeholder="Имя Фамилия">
        </p>
        <p class="popup-email">
          <label class="popup-email-text" for="email">Ваш email:</label>
-         <input id="email" type="email" name="label email" placeholder="email@example.com">
+         <input id="email" type="email" class="popup-email-input" name="label email" placeholder="email@example.com">
        </p>
       </div>
        <p class="popup-text">
@@ -231,7 +234,13 @@
        </p>
        <button class="send-button" type="submit">Отправить</button>
        </form>
+     </div>
+    </div>
+</div>
+</div>
+  </section>
 </main>
+<!-- <div class="content-wrapper"> -->
 <footer class="page-footer">
   <div class="footer-links">
   <ul class="footer-soc-link">
