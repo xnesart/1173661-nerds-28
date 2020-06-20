@@ -32,10 +32,10 @@
   <main>
     <section class="main-section">
       <form method="get" action="https://echo.htmlacademy.ru">
-        <fieldset class="main-filter-fieldset">
+        <fieldset class="filters-fieldset">
       <div class="main-filter">
         <div class="visually-hidden">Фильтр настроек сортировки</div>
-      <legend class="main-filter-header">Сортировать:</legend>
+      <legend class="filters-header">Сортировать:</legend>
       <ul class="main-filter-ul">
         <li class="main-filter-item"><a class="main-link">По цене</a></li>
         <li class="main-filter-item"><a class="main-link">По типу</a></li>
@@ -47,19 +47,18 @@
       </ul>
     </div>
   </fieldset>
-    <fieldset class="first-filter-fieldset">
-    <div class="filter-wrapper">
-    <div class="filters">
+    <fieldset class="filters-fieldset">
+    <div class="first-filter">
       <div class="visually-hidden">Слайдер стоимости</div>
-      <legend class="first-filter-header">Стоимость:</legend>
+      <legend class="filters-header">Стоимость:</legend>
       <div class="price-slider">
-        <div class="price-slider-line"></div>
-        <div class="price-slider-green"></div>
-        <div class="price-slider-dot1"></div>
-        <div class="price-slider-dot2"></div>
-        <div class="price-slider-min"></div>
-        <div class="price-slider-max"></div>
-      </div>
+        <div class="price-range-controls">
+          <div class="scale">
+            <div class="bar"></div>
+          </div>
+          <div class="toggle min-toggle"></div>
+          <div class="toggle max-toggle"></div>
+        </div>
       <div class="first-filter-label">
         <label>От
           <input type="text" class="min-price" value="0">
@@ -70,10 +69,10 @@
       </div>
     </div>
   </fieldset>
-  <fieldset class="second-filter-fieldset">
-    <div class="filters">
+  <fieldset class="filters-fieldset">
+    <div class="second-filter">
       <div class="visually-hidden">Фильтр выбора сетки сайта</div>
-      <legend class="second-filter-header">Сетка:</legend>
+      <legend class="filters-header">Сетка:</legend>
       <label>
         <input class="radio" type="radio" name="second-filter-types" checked>
         <span class="radio-custom"></span>
@@ -91,10 +90,10 @@
       </label>
     </div>
   </fieldset>
-  <fieldset class="third-filter-fieldset">
-      <div class="filters">
+  <fieldset class="filters-fieldset">
+      <div class="third-filter">
         <div class="visually-hidden">Фильтр выбора особенностей сайта</div>
-        <legend class="third-filter-header">Особенности:</legend>
+        <legend class="filters-header">Особенности:</legend>
         <label class="third-filter-item">
           <input type="checkbox" class="checkbox" name="slider-filter" id="slider-filter" checked>
           <span class="checkbox-custom"></span>
@@ -120,7 +119,7 @@
           <span class="checkbox-custom"></span>
           <span class="label">Корзина</span>
         </label>
-        <a class="filter-button" href="https://echo.htmlacademy.ru/">Показать</a>
+        <button type="submit" class="filter-button" href="https://echo.htmlacademy.ru/">Показать</button>
         </div>
       </fieldset>
     </form>
@@ -145,7 +144,7 @@
         <h3 class="template-header">Pink App</h3>
         <p class="template-desc">Продуктовый лендинг<br>
           приложения для iOS и Android</p>
-        <button class="template-button">9 900 руб.</button>
+        <a class="template-button">9 900 руб.</a>
       </div>
       </li>
       <li class="template">
@@ -154,7 +153,7 @@
         <div class="popup-block">
         <h3 class="template-header">Barbershop</h3>
         <p class="template-desc">Сайт салона красоты.<br>Для мужчин, да.</p>
-        <button class="template-button">9 900 руб.</button>
+        <a class="template-button">9 900 руб.</a>
         </div>
       </li>
       <li class="template">
@@ -164,7 +163,7 @@
         <h3 class="template-header">MISHKA</h3>
         <p class="template-desc">Интернет-магазин<br>
           вязаных игрушек</p>
-        <button class="template-button">9 900 руб.</button>
+        <a class="template-button">9 900 руб.</a>
       </div>
       </li>
       <li class="template">
@@ -173,7 +172,7 @@
         <div class="popup-block">
         <h3 class="template-header">A Plus</h3>
         <p class="template-desc">Лендинг курсов повышения<br> квалификации</p>
-        <button class="template-button">9 900 руб.</button>
+        <a class="template-button">9 900 руб.</a>
         </div>
       </li>
       <li class="template">
@@ -183,12 +182,12 @@
         <h3 class="template-header">КВАСТ</h3>
         <p class="template-desc">Промо-сайт производителя
           крафтового кваса</p>
-        <button class="template-button">9 900 руб.</button>
+        <a class="template-button">9 900 руб.</a>
       </div>
       </li>
       <div class="main-control"></div>
     </section>
-    <div class="pages">
+    <div class="pagination">
       <a class="current" href="blank.html">1</a>
       <a href="#">2</a>
 			<a href="#">3</a>
