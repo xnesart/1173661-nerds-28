@@ -332,12 +332,8 @@ background-color: #d7373b;
 box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 /* /////////////////////MAIN////////////// */
-.main-section {
-/* margin-top: 255px; */
-height: 50px;
-}
-.filters-fieldset0 {
 
+.filters-fieldset0 {
 /* margin: 0; */
 /* height: 0; */
 /* width: 300px; */
@@ -359,7 +355,6 @@ margin: 0;
 width: 0;
 padding: 0;
 border: none;
-
 }
 .filters-fieldset3 {
 margin: 0;
@@ -450,6 +445,9 @@ padding-right: 5px;
 .up{
 opacity: 0.4;
 }
+.up:hover {
+  opacity: 1.0;
+}
 .min-price {
 width: 80px;
 height: 38px;
@@ -522,25 +520,41 @@ background: #d7dcde;
 .price-range-controls .max-toggle {
 left: 145px;
 }
+.main-wrapper {
+  max-width: 1200px;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* justify-content: center; */
+  margin: 0 auto;
+  }
 .filter1-wrapper {
-width: 300px;
-height: auto;
-margin-left: 20px;
+
+  display: block;
+ width: 200px;
+ margin-left: 20px;
+  /* justify-content: start; */
+/* height: auto; */
+/* padding-left: 20px; */
 /* margin: 0 auto; */
 }
 .templates-wrapper {
- width: 800px;
- margin-left: 140px;
+  display: block;
+  margin-top: 55px;
+  margin-left: 140px;
+  /* justify-content: start; */
+  width: 900px;
+ /* flex-direction: row; */
+ /* justify-content: stretch; */
+ /* margin-left: 140px; */
 }
-.main-wrapper {
-width: 1200px;
-margin: 0 auto;
-}
+
 .first-filter {
 display: flex;
 flex-direction: column;
 list-style: none;
-width: 270px;
+/* width: 270px; */
 /* margin-top: -30px; */
 /* margin-left: 20px; */
 margin-top: 60px;
@@ -565,7 +579,7 @@ list-style: none;
 padding-right: 20px;
 }
 .first-filter-label {
-width: 270px;
+/* width: 270px; */
 }
 .second-filter {
 margin-top: 84px;
@@ -661,8 +675,9 @@ opacity: 1;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+max-width: 800px;
 /* width: 810px; */
-height: auto;
+/* height: auto; */
 /* margin-left: 150px; */
 
 }
@@ -1208,6 +1223,15 @@ opacity: 0.5;
 .popup-name-input:focus {
 opacity: 1;
 }
+.popup-name-input input:invalid:not(:placeholder-shown) {border-color: red;}
+.popup-name-input input:valid:not(:placeholder-shown) {border-color: green;}
+
+/* .popup-name-input:valid {
+  border-color: green;
+}
+.popup-name-input:invalid {
+  border-color: red;
+} */
 .popup-email-text {
 margin-left: 0px;
 margin-bottom: 5px;
@@ -1317,7 +1341,7 @@ width: 473px;
 height: 50px;
 margin-top: 65px;
 margin-bottom: 80px;
-margin-left: 765px;
+/* margin-left: 765px; */
 font-family: "Roboto", Arial, sans-serif;
 font-style: normal;
 font-weight: 500;
