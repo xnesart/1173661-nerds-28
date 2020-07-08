@@ -1193,7 +1193,7 @@ flex-wrap: nowrap;
 }
 .popup-close {
 margin-left: 420px;
-background-image: url(/img/close.svg);
+background-image: (../img//close.svg);
 width: 21px;
 height: 21px;
 opacity: 0.3;
