@@ -317,9 +317,9 @@ box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 border: none;
 }
 .filters-fieldset1 {
-margin: 0;
+/* margin: 0;
 width: 0;
-padding: 0;
+padding: 0; */
 border: none;
 }
 .filters-fieldset2 {
@@ -1193,7 +1193,7 @@ flex-wrap: nowrap;
 }
 .popup-close {
 margin-left: 420px;
-background-image: (../img//close.svg);
+background-image: url(../img/close.svg);
 width: 21px;
 height: 21px;
 opacity: 0.3;
