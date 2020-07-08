@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="index-wrapper">
     <header class="header">
+        <div class="index-wrapper">
       <nav class="main-nav">
         <div class="header-wrapper">
         <a class="logo" href="index.html"><img src="img/nerds-logo.png" alt="Логотип сайта Nerds" width="160" height="65"></a>
@@ -37,7 +37,7 @@
     <fieldset class="filters-fieldset1">
     <div class="first-filter">
       <div class="visually-hidden">Слайдер стоимости</div>
-      <legend class="filters-header">Стоимость:</legend>
+      <p class="filters-header">Стоимость:</p>
       <div class="price-slider">
         <div class="price-range-controls">
           <div class="scale">
@@ -55,11 +55,12 @@
         </label>
       </div>
     </div>
+    </div>
   </fieldset>
   <fieldset class="filters-fieldset2">
     <div class="second-filter">
       <div class="visually-hidden">Фильтр выбора сетки сайта</div>
-      <legend class="filters-header">Сетка:</legend>
+      <p class="filters-header">Сетка:</p>
       <label>
         <input class="radio" type="radio" name="second-filter-types" checked>
         <span class="radio-custom"></span>
@@ -80,7 +81,7 @@
   <fieldset class="filters-fieldset3">
       <div class="third-filter">
         <div class="visually-hidden">Фильтр выбора особенностей сайта</div>
-        <legend class="filters-header">Особенности:</legend>
+        <p class="filters-header">Особенности:</p>
         <label class="third-filter-item">
           <input type="checkbox" class="checkbox" name="slider-filter" id="slider-filter" checked>
           <span class="checkbox-custom"></span>
@@ -106,18 +107,18 @@
           <span class="checkbox-custom"></span>
           <span class="label">Корзина</span>
         </label>
-        <button type="submit" class="filter-button" href="https://echo.htmlacademy.ru/">Показать</button>
+        <button type="submit" class="filter-button">Показать</button>
       </div>
       </fieldset>
+      </form>
     </div>
-    </form>
     <div class="templates-wrapper">
     <section class="templates">
       <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset class="filters-fieldset0">
       <div class="main-filter">
         <div class="visually-hidden">Фильтр настроек сортировки</div>
-      <legend class="filters-header">Сортировать:</legend>
+      <p class="filters-header">Сортировать:</p>
       <ul class="main-filter-ul">
         <li class="main-filter-item"><a class="main-link">По цене</a></li>
         <li class="main-filter-item"><a class="main-link">По типу</a></li>
@@ -130,9 +131,10 @@
     </div>
   </fieldset>
   </form>
+        <ul class="template-list">
       <li class="template">
-        <img class="image-cap" src="img/image-cap.svg">
-        <img class="image-main" src="img/img-sedona1.jpg" height="576" width="360"/>
+        <img class="image-cap" src="img/image-cap.svg" alt="шапка - декоративный элемент">
+        <img class="image-main" src="img/img-sedona1.jpg" height="576" width="360" alt="макет сайта Седона"/>
         <div class="popup-block">
         <h3 class="template-header">Sedona</h3>
         <p class="template-desc">Информационный сайт<br>
@@ -141,8 +143,8 @@
       </div>
       </li>
       <li class="template">
-        <img class="image-cap" src="img/image-cap.svg">
-        <img class="image-main" src="img/img-pink 1.jpg" height="576" width="358"/>
+        <img class="image-cap" src="img/image-cap.svg" alt="шапка - декоративный элемент">
+        <img class="image-main" src="img/img-pink 1.jpg" height="576" width="358" alt="макет сайта PINK"/>
         <div class="popup-block">
         <h3 class="template-header">Pink App</h3>
         <p class="template-desc">Продуктовый лендинг<br>
@@ -151,8 +153,8 @@
       </div>
       </li>
       <li class="template">
-        <img class="image-cap" src="img/image-cap.svg">
-        <img class="image-main" src="img/img-barbershop 1.jpg" height="578" width="358"/>
+        <img class="image-cap" src="img/image-cap.svg" alt="шапка - декоративный элемент">
+        <img class="image-main" src="img/img-barbershop 1.jpg" height="578" width="358" alt="макет сайта Barbershop"/>
         <div class="popup-block">
         <h3 class="template-header">Barbershop</h3>
         <p class="template-desc">Сайт салона красоты.<br>Для мужчин, да.</p>
@@ -160,8 +162,8 @@
         </div>
       </li>
       <li class="template">
-        <img class="image-cap" src="img/image-cap.svg">
-        <img class="image-main" src="img/img-mishka 1.jpg" height="578" width="358"/>
+        <img class="image-cap" src="img/image-cap.svg" alt="шапка - декоративный элемент">
+        <img class="image-main" src="img/img-mishka 1.jpg" height="578" width="358" alt="макет сайта MISHKA"/>
         <div class="popup-block">
         <h3 class="template-header">MISHKA</h3>
         <p class="template-desc">Интернет-магазин<br>
@@ -170,8 +172,8 @@
       </div>
       </li>
       <li class="template">
-        <img class="image-cap" src="img/image-cap.svg">
-        <img class="image-main" src="img/img-aplus 1.jpg" height="578" width="358"/>
+        <img class="image-cap" src="img/image-cap.svg" alt="шапка - декоративный элемент">
+        <img class="image-main" src="img/img-aplus 1.jpg" height="578" width="358" alt="макет сайта A Plus"/>
         <div class="popup-block">
         <h3 class="template-header">A Plus</h3>
         <p class="template-desc">Лендинг курсов повышения<br> квалификации</p>
@@ -179,8 +181,8 @@
         </div>
       </li>
       <li class="template">
-        <img class="image-cap" src="img/image-cap.svg">
-        <img class="image-main" src="img/img-kvast 1.jpg" height="578" width="358"/>
+        <img class="image-cap" src="img/image-cap.svg" alt="шапка - декоративный элемент">
+        <img class="image-main" src="img/img-kvast 1.jpg" height="578" width="358" alt="макет сайта KVAST"/>
         <div class="popup-block">
         <h3 class="template-header">КВАСТ</h3>
         <p class="template-desc">Промо-сайт производителя
@@ -188,6 +190,7 @@
         <a class="template-button">9 900 руб.</a>
       </div>
       </li>
+        </ul>
       <div class="main-control"></div>
     </section>
     <div class="pagination">
@@ -200,8 +203,8 @@
 </div>
   <section class="section-map">
     <div class="map-wrapper">
-       <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab22b5a88a67d8371d69565169cb2f68da3d154dc2c9dd34cf9e5fa21d32bfd05&amp;source=constructor" width="1200" height="410" frameborder="0"></iframe>
-      <img src="img/map.png" class="map" height="416" width="1440"/>
+       <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab22b5a88a67d8371d69565169cb2f68da3d154dc2c9dd34cf9e5fa21d32bfd05&amp;source=constructor" width="1200" height="410"></iframe>
+      <img src="img/map.png" class="map" height="416" width="1440" alt="наше местонахождение - карта"/>
         <h2 class="visually-hidden">Наши контактные данные</h2>
      <div class="map-text-background">
      <div class="map-text">

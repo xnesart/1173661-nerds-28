@@ -616,13 +616,25 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 }
+.template-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 760px;
+  margin: 0;
+  margin-bottom: 28px;
+  padding: 0;
+
+  list-style: none;
+}
 .template {
-position: relative;
-display: flex;
-flex-direction: column;
-list-style: none;
-margin-right: 40px;
-margin-bottom: 30px;
+  position: relative;
+
+  width: 360px;
+  height: 578px;
+  margin-bottom: 34px;
+  margin-top: 40px;
 }
 .template:nth-child(6) {
   padding-left: 0px;
@@ -643,7 +655,7 @@ box-shadow: 0px 6px 15px rgba(0, 1, 1, 0.25);
 .popup-block {
 display: none;
 width: 360px;
-height: 231px;
+height: 241px;
 text-align: center;
 background-color: #eeeeee;
 }
@@ -1081,6 +1093,7 @@ z-index: 11;
 min-width: 1200px;
 width: 100%;
 height: 100%;
+  border: 0;
 }
 /*/////////// POPUP FORM/////////// */
 .form-wrapper {
