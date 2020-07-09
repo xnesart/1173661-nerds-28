@@ -1373,7 +1373,7 @@ max-width: 1200px;
 .footer-links {
 display: flex;
 width: 300px;
-margin-top: 48px;
+margin-top: 68px;
 }
 .footer-soc-link {
 display: flex;
@@ -1432,7 +1432,7 @@ margin: 30px 30px;
 }
 .footer-text {
 flex-direction: column;
-margin-top: 48px;
+margin-top: 68px;
 padding-left: 150px;
 }
 .footer-text-header {
