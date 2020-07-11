@@ -105,14 +105,13 @@
           <span class="checkbox-custom"></span>
           <span class="label">Корзина</span>
         </label>
-        <div class="third-filter-button"><a href="https://echo.htmlacademy.ru/" class="filter-button">Показать</a></div>
+        <div class="third-filter-button"><button href="https://echo.htmlacademy.ru/" class="filter-button">Показать</button></div>
       </div>
       </fieldset>
       </form>
     </div>
     <div class="templates-wrapper">
     <section class="templates">
-      <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset class="filters-fieldset0">
       <div class="main-filter">
         <div class="visually-hidden">Фильтр настроек сортировки</div>
@@ -128,7 +127,6 @@
       </ul>
     </div>
   </fieldset>
-  </form>
       <ul class="template-list">
       <li class="template">
         <img class="image-cap" src="img/image-cap.svg" width="360" height="40" alt="шапка - декоративный элемент">
@@ -211,12 +209,11 @@
       ул. Б. Конюшенная, д. 19/8
       <p class="map-phone"><a class="map-phone-link" href="tel:78122757575">тел. +7 (812) 275-75-75</a></p>
       <div class="form-wrapper">
-     <input type="checkbox" id="modal" class="visually-hidden" checked>
-     <label class="map-button" for="modal">Напишите нам</label>
+     <button class="map-button">Напишите нам</button>
       <div class="popup-form">
           <div class="form-header">
        <h2 class="popup-h2">Напишите нам</h2>
-       <label class="popup-close" for="modal"><span class="visually-hidden">Закрытие формы</span></label>
+       <button class="popup-close"><span class="visually-hidden">Закрытие формы</span></button>
       </div>
        <form action="https://echo.htmlacademy.ru" method="post">
           <div class="name-email">
@@ -269,5 +266,17 @@
 </div>
 </footer>
 </div>
+<script>
+let popup = document.querySelector('.popup-form');
+let popupToggle = document.querySelector('.map-button');
+let popupClose = document.querySelector('.popup-close');
+
+popupToggle.onclick = function() {
+    popup.style.display="block";
+};
+popupClose.onclick = function() {
+  popup.style.display="none";
+  };
+</script>
 </body>
 </html>
