@@ -359,6 +359,9 @@ width: 0;
 padding: 0;
 border: none;
 }
+.third-filter-button{
+  padding-top: 40px;
+}
 .filter-button {
 max-width: 260px;
 background-color: #eeeeee;
@@ -666,6 +669,19 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 }
+.template-link{
+text-decoration: none;
+outline: none;
+color: #000000;
+}
+.template-link:hover,
+.template-link:focus{
+  color: #FB565A;
+}
+.template-link:active{
+  color: #000000;
+  opacity: 0.3;
+}
 .template-list {
   display: flex;
   flex-wrap: wrap;
@@ -715,6 +731,7 @@ width: 360px;
 height: 241px;
 text-align: center;
 background-color: #eeeeee;
+overflow: hidden;
 }
 .template-header {
 margin-top: 26px;
@@ -733,11 +750,13 @@ text-transform: uppercase;
   opacity: 0.3 ;
 }
 .template-desc {
+max-height: 50px;
 margin-top: 20px;
 font-size: 16px;
 line-height: 18px;
 color: #666666;
 margin-bottom: 42px;
+overflow: auto;
 }
 .template-button {
 text-transform: uppercase;
@@ -1104,6 +1123,7 @@ background-color: #d7373b;
 position: absolute;
 top: 54px;
 left: 370px;
+/* left: 30%; */
 z-index: 12;
 width: 319px;
 height: 308px;
