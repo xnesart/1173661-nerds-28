@@ -88,6 +88,7 @@ body {
   font-size: 16px;
   line-height: 30px;
 }
+
 .menu-nav-link:hover,
 .menu-nav-link:focus {
   color: #fb565a;
@@ -168,6 +169,8 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: 431px;
+  width: 100%;
+  min-width: 1440px;
 }
 .slider-section {
   display: flex;
