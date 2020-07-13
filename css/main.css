@@ -185,7 +185,7 @@ body {
   font-size: 0;
   position: absolute;
   z-index: 100;
-  bottom: 90px;
+  bottom: 110px;
   left: 580px;
   width: 160px;
   height: 18px;
@@ -948,8 +948,8 @@ body {
 .about-header {
   font-size: 45px;
   line-height: 45px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 14px;
+  margin-bottom: 15px;
 }
 .about-text {
   font-size: 16px;
@@ -959,13 +959,15 @@ body {
 .about-orders {
   margin-left: 0px;
   font-size: 16px;
+  line-height: 24px;
   text-transform: uppercase;
   margin-top: 25px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 .about-orders-list {
   list-style: none;
   position: relative;
+  margin-left: -5px;
 }
 .about-orders-item {
   position: relative;
@@ -977,7 +979,7 @@ body {
   content: " ";
   position: absolute;
   top: 10px;
-  left: -40px;
+  left: -35px;
   height: 2px;
   width: 25px;
   background-color: red;
@@ -995,21 +997,21 @@ body {
 }
 .nerds-results-logo {
   position: relative;
-  margin-top: 130px;
+  margin-top: 115px;
 }
 .nerds-results-text {
   position: absolute;
   text-transform: uppercase;
   font-weight: 600;
-  top: 365px;
-  left: 15px;
+  top: 345px;
+  left: 16px;
 }
 .nerds-results-list {
   display: flex;
   flex-direction: row;
   position: absolute;
-  top: 180px;
-  left: 55px;
+  top: 165px;
+  left: 61px;
 }
 .nerds-results-values {
   display: flex;
@@ -1018,14 +1020,17 @@ body {
   font-size: 45px;
   font-weight: bold;
   line-height: 18px;
-  top: 230px;
+  top: 227px;
   justify-content: center;
 }
 .nerds-results-values1 {
   margin-right: 15px;
 }
+.nerds-results-values2 {
+  margin-left: 5px;
+}
 .nerds-results-values3 {
-  margin-left: 20px;
+  margin-left: 21px;
 }
 .nerds-results-values1-text {
   margin-top: 35px;
@@ -1041,6 +1046,15 @@ body {
   margin-top: 35px;
   font-weight: 400;
   font-size: 16px;
+}
+.nerds-results-values1 sup{
+  font-size: 28px;
+}
+.nerds-results-values2 sup{
+  font-size: 28px;
+}
+.nerds-results-values3 sup{
+  font-size: 28px;
 }
 /* //////////////////////FIRMLINE///////////////// */
 .firm-wrapper-content {
@@ -1067,6 +1081,22 @@ body {
 .firm-item a {
   padding-right: 45px;
   padding-left: 45px;
+}
+.firm-item a:first-child{
+  padding-right: 45px;
+  padding-left: 45px;
+}
+.firm-item a:nth-child(2){
+  padding-right: 25px;
+  padding-left: 15px;
+}
+.firm-item:first-child {
+  margin-top: 10px;
+  margin-left: 0px;
+}
+.firm-item:nth-child(2) {
+  margin-top: 10px;
+  margin-left: 0px;
 }
 .firm-item:after {
   position: absolute;
@@ -1206,7 +1236,6 @@ iframe {
   top: 200px;
   width: 960px;
   height: 590px;
-  display: flex;
   flex-direction: column;
   background: #ffffff;
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
@@ -1214,6 +1243,7 @@ iframe {
   transition: 0.5s all;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 15;
 }
 .popup-h2 {
   justify-content: flex-start;
