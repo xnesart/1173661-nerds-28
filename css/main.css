@@ -47,7 +47,7 @@ body {
   background-color: #eeeeee;
   height: 117px;
   width: 100%;
-  min-width: 1440px;
+  min-width: 1200px;
 }
 .link {
   text-decoration: none;
@@ -151,6 +151,11 @@ body {
   margin: 0 auto;
   padding: 0;
 }
+.title {
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+}
 .page-title {
   margin: 0 auto;
   margin-top: 0px;
@@ -170,7 +175,7 @@ body {
   box-sizing: border-box;
   height: 431px;
   width: 100%;
-  min-width: 1440px;
+  min-width: 1200px;
 }
 .slider-section {
   display: flex;
@@ -252,23 +257,23 @@ body {
 }
 .slider-item {
   display: none;
-  padding: 78px 0 80px 0;
+  padding: 76px 0 80px 0;
   min-height: 430px;
 }
 .slider-item:nth-child(1) {
   background-image: url("../img/slide1.png");
   background-repeat: no-repeat;
-  background-position: 93% 18px;
+  background-position: 430px 15px;
 }
 .slider-item:nth-child(2) {
   background-image: url("../img/slide2.png");
   background-repeat: no-repeat;
-  background-position: 93% 0;
+  background-position: 496px 0px;
 }
 .slider-item:nth-child(3) {
   background-image: url("../img/slide3.png");
   background-repeat: no-repeat;
-  background-position: 93% 20px;
+  background-position: 395px 18px;
 }
 #product-1:checked ~ .slider-list .slider-item:nth-child(1) {
   display: block;
@@ -305,7 +310,7 @@ body {
 .slider-item p {
   font-family: "Roboto", Arial, sans-serif;
   max-width: 430px;
-  margin-bottom: 48px;
+  margin-bottom: 52px;
   margin-left: 0px;
   font-style: normal;
   font-weight: normal;
@@ -340,6 +345,11 @@ body {
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 /* /////////////////////MAIN////////////// */
+.page-main {
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+}
 .filters-fieldset0 {
   border: none;
 }
@@ -359,7 +369,8 @@ body {
   border: none;
 }
 .third-filter-button {
-  padding-top: 40px;
+  padding-top: 35px;
+  padding-left: 5px;
 }
 .filter-button {
   max-width: 260px;
@@ -401,7 +412,7 @@ body {
   display: flex;
   list-style: none;
   margin-top: 20px;
-  margin-left: 55px;
+  margin-left: 58px;
 }
 .main-filter-item {
   font-family: "Roboto", Arial, sans-serif;
@@ -412,7 +423,7 @@ body {
   color: #000000;
   opacity: 0.3;
   text-transform: uppercase;
-  margin-left: 29px;
+  margin-left: 28px;
 }
 .main-filter-item:last-child {
   margin-left: 25px;
@@ -479,21 +490,21 @@ body {
   opacity: 1.0;
 }
 .min-price {
-  width: 70px;
+  width: 80px;
   height: 38px;
   text-align: center;
   background-color: #eeeeee;
   border: none;
-  margin-right: 33px;
-  margin-left: 11px;
+  margin-right: 29px;
+  margin-left: 9px;
 }
 .max-price {
-  width: 70px;
+  width: 80px;
   height: 38px;
   text-align: center;
   background-color: #eeeeee;
   border: none;
-  margin-left: 11px;
+  margin-left: 5px;
 }
 .price-slider {
   position: relative;
@@ -502,6 +513,7 @@ body {
   height: 80px;
   margin-bottom: 14px;
   margin-top: 30px;
+  margin-left: 5px;
 }
 .price-range {
   margin: 0 auto 30px;
@@ -540,7 +552,7 @@ body {
   box-sizing: content-box;
   cursor: pointer;
   height: 4px;
-  left: 25px;
+  left: 20px;
   position: absolute;
   top: 30px;
   width: 4px;
@@ -549,7 +561,7 @@ body {
   background: #d7dcde;
 }
 .price-range-controls .max-toggle {
-  left: 165px;
+  left: 160px;
 }
 .main-wrapper {
   max-width: 1200px;
@@ -573,10 +585,12 @@ body {
   margin-top: 40px;
   margin-bottom: 15px;
 }
+
 .first-filter-label {
   text-transform: uppercase;
   padding-top: 5px;
-  padding-left: 5px;
+  padding-left: 1px;
+  width: 270px;
 }
 .filters-header {
   margin-top: 10px;
@@ -589,6 +603,9 @@ body {
   line-height: 30px;
   font-weight: bold;
 }
+.first-filter .filters-header {
+ margin-left: 8px;
+  }
 .filters-header:nth-child(2) {
   margin-bottom: 17px;
 }
@@ -605,8 +622,16 @@ body {
   margin-bottom: 5px;
   line-height: 33px;
 }
+.second-filter .filters-header {
+  margin-bottom: 8px;
+  margin-right: 0;
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 0;
+}
 .second-filter label {
   margin-top: 0px;
+  margin-left: 5px;
   display: block;
 }
 .radio {
@@ -649,9 +674,16 @@ body {
 .third-filter {
   margin-left: 15px;
 }
+.third-filter .filters-header {
+  margin-top: 19px;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-right: 0;
+}
 .third-filter label {
   display: block;
-  line-height: 19px;
+  margin-top: 10px;
+  margin-left: 8px;
 }
 .third-filter-item {
   margin-bottom: 10px;
@@ -662,7 +694,7 @@ body {
 .checkbox-custom {
   position: relative;
   height: 23px;
-  width: 23px;
+  width: 27px;
   border: 3px solid #b8b8b8;
   border-radius: 3px;
   box-sizing: border-box;
@@ -680,7 +712,7 @@ body {
   position: absolute;
   top: -2px;
   left: -3px;
-  width: 25px;
+  width: 27px;
   height: 25px;
   background: #ffffff url("../img/checkbox-on.svg") no-repeat;
   z-index: 10;
@@ -1175,11 +1207,14 @@ body {
   position: relative;
   display: flex;
   height: 416px;
+  width: 100%;
   width: 1200px;
   flex-grow: 1;
   background-color: #b5b5b5;
 }
 .section-map {
+  width: 100%;
+  min-width: 1200px;
   display: flex;
   margin: 0 auto;
 }
@@ -1454,8 +1489,8 @@ body {
 .pagination {
   width: 473px;
   height: 50px;
-  margin-left: 15px;
-  margin-top: 30px;
+  margin-left: 16px;
+  margin-top: 33px;
   margin-bottom: 60px;
   font-family: "Roboto", Arial, sans-serif;
   font-style: normal;
@@ -1466,11 +1501,11 @@ body {
 .pagination a {
   display: inline-block;
   margin: 0;
-  margin-right: 10px;
+  margin-right: 8px;
   margin-bottom: 10px;
   padding-top: 17px;
   padding-bottom: 15px;
-  padding-left: 20px;
+  padding-left: 19px;
   padding-right: 20px;
   font-size: 12px;
   line-height: 18px;
@@ -1492,14 +1527,14 @@ body {
 }
 .pagination .current {
   padding-top: 16px;
-  padding-bottom: 14px;
-  padding-left: 20px;
+  padding-bottom: 12px;
+  padding-left: 16px;
   padding-right: 20px;
-  margin-left: 4px;
+  margin-left: 3px;
   line-height: 18px;
   font-weight: 500;
   background-color: #ffffff;
-  border: 2px solid #f1f1f1;
+  border: 3px solid #f1f1f1;
   font-family: "Roboto", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -1529,6 +1564,11 @@ body {
   background-color: #dfdfdf;
 }
 /* ///////////////////////////////FOOTER///////////////////////// */
+.page-footer {
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+}
 .social {
   display: flex;
 
